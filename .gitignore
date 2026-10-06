@@ -1,13 +1,16 @@
 # Dependencies
 node_modules/
 
-# TypeScript compiled output
+# Build output
 dist/
 
-# Environment variables
+# Environment/secrets
 .env
-.env.local
-.env.*.local
+.env.*
+credentials.json
+secrets.json
+service-account.json
+firebase-adminsdk*.json
 
 # Logs
 *.log
@@ -16,6 +19,6 @@ dist/
 .DS_Store
 Thumbs.db
 
-# IDE/editor files
+# IDE
 .vscode/
 .idea/
